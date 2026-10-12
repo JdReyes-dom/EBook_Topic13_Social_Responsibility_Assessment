@@ -28,7 +28,7 @@ const QUIZ_QUESTIONS = [
     id: 3,
     grade: 'Digital Values',
     subject: 'Application',
-    question: 'You see a viral social media post claiming your school is unexpectedly closed tomorrow, but no official announcement has been made by school officials. What should you do first?',
+    question: 'You see a viral post saying your school is closed tomorrow, but the school has not announced anything. What should you do first?',
     choices: {
       a: 'Share it immediately with classmates so they can plan ahead.',
       b: 'Verify the news on the official school website or portal.',
@@ -41,10 +41,10 @@ const QUIZ_QUESTIONS = [
     id: 4,
     grade: 'Digital Values',
     subject: 'Application',
-    question: 'A friend sends a link offering free game currency, urging you to forward it immediately to ten friends to claim the prize. How should you react?',
+    question: 'A friend sends a link for free game money and says to forward it to ten friends to get the prize. What should you do?',
     choices: {
       a: 'Forward it to ten friends right away to claim the reward.',
-      b: 'Pause and inspect the source or link before taking any action.',
+      b: 'Stop and check where the link came from first.',
       c: 'Send it only to five friends to see if it works first.',
       d: 'Report your friend\'s account for hacking without speaking to them.'
     },
@@ -56,7 +56,7 @@ const QUIZ_QUESTIONS = [
     id: 5,
     grade: 'Digital Values',
     subject: 'Comprehension',
-    question: 'What was the actual reason for the closure according to the school\'s official notice?',
+    question: 'What did the school\'s official notice say was the real reason for the closure?',
     choices: {
       a: 'The facility was condemned due to severe structural failure.',
       b: 'A scheduled 30-minute closure for routine maintenance.',
